@@ -10,7 +10,7 @@
     "Restaurant"
   ],
   "authors": [
-    "Jogesh Muppala"
+    "Siddiq Ahmed Syed"
   ],
   "license": "MIT",
   "homepage": "",
@@ -25,6 +25,7 @@
     "bootstrap": "~3.3.5",
     "font-awesome": "~4.4.0",
     "angular": "~1.4.7",
-    "angular-ui-router": "~0.2.15"
+    "angular-ui-router": "~0.2.15",
+    "angular-route": "~1.4.8"
   }
 }
