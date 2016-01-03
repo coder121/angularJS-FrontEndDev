@@ -49,6 +49,9 @@ gulp.task('imagemin', function() {
     .pipe(gulp.dest('dist/images'))
     .pipe(notify({ message: 'Images task complete' }));
 });
+gulp.task('clear', function(done){
+  return cache.clearAll(done);
+});
 
 gulp.task('copyfonts', ['clean'], function() {
    gulp.src('./bower_components/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
