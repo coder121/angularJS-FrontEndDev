@@ -50,6 +50,12 @@
           "rating": 4,
           "comment": "These is the good",
           "date": "2016-01-03T02:11:26.205Z"
+        },
+        {
+          "author": "Randy Blue",
+          "rating": 3,
+          "comment": "Testing it",
+          "date": "2016-01-03T03:00:39.465Z"
         }
       ]
     },
@@ -59,7 +65,7 @@
       "image": "images/zucchipakoda.png",
       "category": "appetizer",
       "label": "",
-      "price": "1.99",
+      "price": 1.99,
       "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce",
       "comments": [
         {
@@ -91,6 +97,12 @@
           "comment": "It's your birthday, we're gonna party!",
           "author": "25 Cent",
           "date": "2011-12-02T17:57:28.556094Z"
+        },
+        {
+          "author": "Siddiq",
+          "rating": 3,
+          "comment": "Its a wonderful dish",
+          "date": "2016-01-03T03:00:59.276Z"
         }
       ]
     },
@@ -141,7 +153,7 @@
       "image": "images/elaicheesecake.png",
       "category": "dessert",
       "label": "",
-      "price": "2.99",
+      "price": 2.99,
       "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms",
       "comments": [
         {
@@ -173,6 +185,30 @@
           "comment": "It's your birthday, we're gonna party!",
           "author": "25 Cent",
           "date": "2011-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 5,
+          "comment": "",
+          "author": "",
+          "date": "2016-01-03T02:31:19.107Z"
+        },
+        {
+          "rating": 5,
+          "comment": "",
+          "author": "",
+          "date": "2016-01-03T02:31:28.332Z"
+        },
+        {
+          "rating": 5,
+          "comment": "",
+          "author": "",
+          "date": "2016-01-03T03:00:06.716Z"
+        },
+        {
+          "author": "Testing",
+          "rating": 4,
+          "comment": "Its is test",
+          "date": "2016-01-03T03:01:21.083Z"
         }
       ]
     }
@@ -221,5 +257,41 @@
       "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
     }
   ],
-  "feedback": []
+  "feedback": [
+    {
+      "mychannel": "",
+      "firstName": "Iftar",
+      "lastName": "Ahmed",
+      "agree": false,
+      "email": "siddiq235@gmail.com",
+      "comments": "sasasa",
+      "id": 1
+    },
+    {
+      "mychannel": "tel",
+      "firstName": "Siddiq Ahmed",
+      "lastName": "Syed",
+      "agree": true,
+      "email": "siddiq235@gmail.com",
+      "tel": {
+        "areaCode": "218",
+        "number": "12121"
+      },
+      "comments": "asasasa",
+      "id": 2
+    },
+    {
+      "mychannel": "",
+      "firstName": "Testing1",
+      "lastName": "ssyed",
+      "agree": false,
+      "email": "212@gmail",
+      "comments": "sasa",
+      "tel": {
+        "number": "q2q2",
+        "areaCode": "2121"
+      },
+      "id": 3
+    }
+  ]
 }
